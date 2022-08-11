@@ -60,3 +60,16 @@ print(True, "   ", True, "   ", True and True, "    ", not (not True or not True
 print(True, "   ", False, "  ", True and False, "   " , not (not True or not False)) # True
 print(False, "  ", True, "   ", False and True, "   ", not (not False or not True)) # False
 print(False, "  ", False, "  ", False and False, "   ", not (not False or not False)) # False
+
+# Упражнение: Проверьте, как Python обработает a,b,c=1,2.
+# a, b, c = 1, 2
+# print(a, b, c) # ValueError: not enough values to unpack (expected 3, got 2)
+
+# Упражнение: Поменяйте значения двух переменных a,b обычным способом используя третью переменную tmp.
+a = 10
+b = 5
+print(a, b)
+tmp = a
+a = b
+b = tmp
+print(a, b)
