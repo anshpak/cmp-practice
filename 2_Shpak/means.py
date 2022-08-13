@@ -40,4 +40,4 @@ for i in range(ln):
 
 av_q = round(pow(s / ln, 1 / 2), 2)
 
-print(av_g, av_a, med, av_q)
+print([av_g, av_a, med, av_q])
