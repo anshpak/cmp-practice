@@ -12,4 +12,4 @@ while (s < a):
 	i += 1
 	s += 1 / i
 
-print(i)
+print(i + 1)
