@@ -7,6 +7,7 @@ import sys
 f = open(sys.argv[1], 'r')
 res = []
 data = f.read().split('\n')
+# можно было использовать множество, забыл
 # data = [line[:len(line) - 1] for line in f]
 count = 0
 for i in data:
