@@ -10,7 +10,7 @@ lst = reversed(range(2 ** n))
 res = []
 
 for el in lst:
-	print(el)
+	# print(el)
 	i = 0
 	while (2 ** (i + 1) <= el):
 		i = i + 1
@@ -24,7 +24,7 @@ for el in lst:
 		i = i - 1
 	while len(s) < n:
 		s += '0'
-	print(s)
+	# print(s)
 	tmp = []
 	for ch in s:
 		tmp += [int(ch)]
